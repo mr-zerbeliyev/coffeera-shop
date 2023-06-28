@@ -1,0 +1,35 @@
+.slide-wrap {
+    padding-top: 6rem;
+    background-image: url(http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/74872891-8zl70fbou9_10000000rs0hi00000i01o.jpg);
+    background-repeat: no-repeat;
+    height: 850px;
+    width: 100%;
+    background-size: 100%;
+}
+.text-wrap{
+    width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+ 
+}
+.text-wrap h3{
+    width: 460px;
+    font-family: "Rancho", cursive;
+    color: white;
+    font-size: 68px;
+}
+.text-wrap p{
+    width: 485px;
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+.slide-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

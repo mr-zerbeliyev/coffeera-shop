@@ -1,0 +1,65 @@
+.header {
+    height: 100px;
+    background: rgba(51, 26, 21, 1);
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 10;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.navbar {
+    display: flex;
+    gap: 25px;
+
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.coffera {
+    font-size: 52px;
+    color: #fff;
+    font-family: 'Rancho', cursive;
+
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.menu{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+     display: none !important;
+    }
+    .btn-wrap{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .menu i{
+        font-size: 20px;
+        color: white;
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width:992px){
+    .btn-wrap{
+        display: none;
+    }
+  }

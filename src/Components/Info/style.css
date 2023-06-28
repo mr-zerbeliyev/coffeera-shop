@@ -1,0 +1,25 @@
+.coffe_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 235px;
+
+}
+
+.coffe_info img {
+    width: 70px;
+    height: 70px;
+}
+
+.coffe_info h3 {
+    font-family: "Rancho", cursive;
+    font-size: 30px;
+    color: rgb(51, 26, 21);
+}
+
+.coffe_info p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgb(85, 85, 85);
+}

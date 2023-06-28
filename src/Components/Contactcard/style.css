@@ -1,0 +1,21 @@
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact_phone {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_phone span {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact_phone p {
+    font-size: 28px;
+    font-family: 'Rancho', cursive;
+}

@@ -1,0 +1,15 @@
+.coffe_btn{
+    width: 144px;
+    height: 46px;
+    border:3px solid #331a15;
+    color:#331a15;
+    background-color: rgba(210,180,140,1);
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Rancho', cursive;
+    padding: 0px 8px;
+}
+.coffe_btn:hover{
+    background-color: #fff;
+}
