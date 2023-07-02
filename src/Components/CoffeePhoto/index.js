@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const Coffephoto = ({ img, title, text }) => {
+const CoffeePhoto = ({ img, title, text }) => {
   return (
     <div className="photo_card">
       <img src={img} />
@@ -11,4 +11,4 @@ const Coffephoto = ({ img, title, text }) => {
   );
 };
 
-export default Coffephoto;
+export default CoffeePhoto;

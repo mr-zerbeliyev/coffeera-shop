@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-const Clintcard = ({ img, text, name, person }) => {
+
+const ClientCard = ({ img, text, name, person }) => {
   return (
     <div className="clintcard">
       <img src={img} />
@@ -11,4 +12,4 @@ const Clintcard = ({ img, text, name, person }) => {
   );
 };
 
-export default Clintcard;
+export default ClientCard;

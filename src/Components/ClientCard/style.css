@@ -45,3 +45,12 @@
     font-family: 'Raleway', sans-serif;
     color: rgb(85, 85, 85);
 }
+
+@media screen and (max-width: 1024px) {
+    .clintcard {
+        margin: 20px 0;
+    }
+    .clint_cards {
+        flex-wrap: wrap;
+    }
+}

@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
 
-const Coffebutton = () => {
+const CoffeeButton = () => {
   return <button className="coffe_btn">Add To cart</button>;
 };
-export default Coffebutton;
+
+export default CoffeeButton;

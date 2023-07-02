@@ -1,35 +1,87 @@
 .slide-wrap {
-    padding-top: 6rem;
-    background-image: url(http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/74872891-8zl70fbou9_10000000rs0hi00000i01o.jpg);
-    background-repeat: no-repeat;
-    height: 850px;
-    width: 100%;
-    background-size: 100%;
+  padding-top: 6rem;
+  background-image: url(http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/74872891-8zl70fbou9_10000000rs0hi00000i01o.jpg);
+  background-repeat: no-repeat;
+  height: 850px;
+  width: 100%;
+  background-size: 100%;
 }
-.text-wrap{
-    width: 1350px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+.text-wrap {
+  width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+.text-wrap h3 {
+  width: 460px;
+  font-family: "Rancho", cursive;
+  color: white;
+  font-size: 68px;
+}
+.text-wrap p {
+  width: 485px;
+  color: white;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Raleway", sans-serif;
+}
+.slide-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-wrap {
+    background-size: cover;
     height: 100%;
- 
+    width: 100%;
+    object-fit: cover;
+  }
+  .text-wrap {
+    width: 100%;
+    justify-content: start;
+    margin-top: 10px;
+  }
+  .text-wrap h3 {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+  }
+  .text-wrap p {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+  }
+  .slide-info {
+    align-items: center;
+    margin-bottom: 10px;
+  }
 }
-.text-wrap h3{
-    width: 460px;
-    font-family: "Rancho", cursive;
-    color: white;
-    font-size: 68px;
-}
-.text-wrap p{
-    width: 485px;
-    color: white;
-    font-size: 14px;
-    line-height: 26px;
-    font-family: 'Raleway', sans-serif;
-}
-.slide-info{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .slide-wrap {
+    height: 430px;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+  }
+  .text-wrap {
+    width: 50%;
+    justify-content: right;
+    margin: 10px 0 0 auto;
+    padding: 0 20px;
+  }
+  .text-wrap h3 {
+    width: 400px;
+    font-size: 50px;
+    text-align: left;
+  }
+  .text-wrap p {
+    width: 450px;
+    font-size: 15px;
+    text-align: left;
+  }
 }

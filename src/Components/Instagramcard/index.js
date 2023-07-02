@@ -1,10 +1,12 @@
 import React from "react";
 import "./style.css";
-const Instagramcard = ({img}) => {
+
+const InstagramCard = ({ img }) => {
   return (
     <div className="insta_photo">
       <img src={img} />
     </div>
   );
 };
-export default Instagramcard;
+
+export default InstagramCard;

@@ -1,6 +1,7 @@
 import React from "react";
-import "./style.css";
 import Button from "../Button";
+
+import "./style.css";
 
 const Slide = () => {
   return (
@@ -13,7 +14,7 @@ const Slide = () => {
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s{" "}
           </p>
-          <Button text="Learn More"/>
+          <Button text="Learn More" />
         </div>
       </div>
     </section>

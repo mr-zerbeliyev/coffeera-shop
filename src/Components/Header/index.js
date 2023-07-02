@@ -1,6 +1,8 @@
 import React from "react";
-import "./style.css";
 import Button from "../Button";
+
+import "./style.css";
+
 const Header = () => {
   return (
     <header className="header">
@@ -28,7 +30,7 @@ const Header = () => {
           <Button text="Shop Now" />
         </div>
         <div className="menu">
-        <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars"></i>
         </div>
       </div>
     </header>

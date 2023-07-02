@@ -1,108 +1,133 @@
 .footer {
-    width: 100%;
-    background-color: rgba(51, 26, 21, 1);
-    height: auto;
-    color: #fff;
+  width: 100%;
+  background-color: rgba(51, 26, 21, 1);
+  height: auto;
+  color: #fff;
 }
 
 .footer_texts {
-    display: flex;
-    padding-left: 50px;
-    padding-top: 100px;
-    width: 80%;
-    margin: 0 auto;
+  display: flex;
+  padding-left: 50px;
+  padding-top: 100px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .footer_text1 {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .footer_text1 h3 {
-    font-size: 54px;
-    font-family: 'Rancho', cursive;
+  font-size: 54px;
+  font-family: "Rancho", cursive;
 }
 
 .footer_text1 p {
-    width: 450px;
-    line-height: 26px;
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
+  width: 450px;
+  line-height: 26px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer_icons {
-    display: flex;
-    gap: 15px;
-
+  display: flex;
+  gap: 15px;
 }
 
 .footer_icons i {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .footer_texts2 {
-    width: 50%;
+  width: 50%;
 }
 
-.footer_texts2>h3 {
-    font-size: 34px;
-    font-family: 'Rancho', cursive;
+.footer_texts2 > h3 {
+  font-size: 34px;
+  font-family: "Rancho", cursive;
 }
 
 .contacts {
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .maps {
-    display: flex;
-    padding: 50px 20px;
-
+  display: flex;
+  padding: 50px 20px;
 }
 
 .map button {
-    margin-top: 100px;
-    width: 200px;
-    height: 60px;
-    border: 3px solid white;
-    background-color: rgba(51, 26, 21, 1);
-    color: #fff;
-    font-size: 30px;
-    font-family: 'Rancho', cursive;
-    border-radius: 5px;
-
+  margin-top: 100px;
+  width: 200px;
+  height: 60px;
+  border: 3px solid white;
+  background-color: rgba(51, 26, 21, 1);
+  color: #fff;
+  font-size: 30px;
+  font-family: "Rancho", cursive;
+  border-radius: 5px;
 }
 
 .map {
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .map iframe {
-    margin-top: 50px;
-    width: 500px;
-    height: 400px;
+  margin-top: 50px;
+  width: 500px;
+  height: 400px;
 }
 
 .copyright {
-    font-family: 'Raleway', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
-.copyright span{
-    font-family: 'Rancho', cursive;
-    font-size: 24px;
+.copyright span {
+  font-family: "Rancho", cursive;
+  font-size: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer_texts {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .footer_text1 {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .footer_texts2{
+        width: 90%;
+    }
+    .maps {
+        flex-direction: column;
+        align-items: center;
+    }
+    .map {
+        width: 90%;
+    }
+    .map iframe {
+        width: 100%;
+    }
+    .footer_text1 p {
+        width: 100%;
+    }
 }

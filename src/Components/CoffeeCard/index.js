@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-const Coffecard = ({img,title,text}) => {
+
+const CoffeeCard = ({ img, title, text }) => {
   return (
     <div>
       <div className="about_coffe">
@@ -9,12 +10,11 @@ const Coffecard = ({img,title,text}) => {
         </div>
         <div className="coffe_glass">
           <h3>{title}</h3>
-          <p>
-           {text}
-          </p>
+          <p>{text}</p>
         </div>
       </div>
     </div>
   );
 };
-export default Coffecard;
+
+export default CoffeeCard;

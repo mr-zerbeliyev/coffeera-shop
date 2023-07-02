@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const Contactcard = ({ img, contact, information }) => {
+const ContactCard = ({ img, contact, information }) => {
   return (
     <div className="contact">
       <div className="contact_img">
@@ -14,4 +14,5 @@ const Contactcard = ({ img, contact, information }) => {
     </div>
   );
 };
-export default Contactcard;
+
+export default ContactCard;

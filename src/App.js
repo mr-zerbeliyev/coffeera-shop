@@ -1,15 +1,16 @@
 import React from "react";
-import Header from "./Components/Header";
+import Header from "./components/Header";
+import Slide from "./components/Slide";
+import Info from "./components/Info";
+import CoffeeCard from "./components/CoffeeCard";
+import CoffeePhoto from "./components/CoffeePhoto";
+import ClientCard from "./components/ClientCard";
+import Button from "./components/Button";
+import CoffeeCardPhoto from "./components/CoffeeCardPhoto";
+import InstagramCard from "./components/InstagramCard";
+import Footer from "./components/Footer";
+
 import "./App.css";
-import Slide from "./Components/Slide";
-import Info from "./Components/Info";
-import Coffecard from "./Components/Coffecard";
-import Coffephoto from "./Components/Coffephoto";
-import Clintcard from "./Components/Clintcard";
-import Button from "./Components/Button";
-import Coffecardphoto from "./Components/Coffecardphoto";
-import Instagramcard from "./Components/Instagramcard";
-import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -44,12 +45,12 @@ function App() {
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s
             </p>
-            <Coffecard
+            <CoffeeCard
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/caa288e6-icon-1-1920x1_1000000000000000000028.png"
               title="Etiam orci"
               text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
             />
-            <Coffecard
+            <CoffeeCard
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/f5f1a7be-icon-2-1920x1_1000000000000000000028.png"
               title="Etiam orci"
               text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
@@ -84,12 +85,12 @@ function App() {
               </p>
             </div>
             <div className="promotion_cards">
-              <Coffecard
+              <CoffeeCard
                 img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/caa288e6-icon-1-1920x1_1000000000000000000028.png"
                 title="Etiam orci"
                 text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
               />
-              <Coffecard
+              <CoffeeCard
                 img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/f5f1a7be-icon-2-1920x1_1000000000000000000028.png"
                 title="Etiam orci"
                 text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
@@ -103,32 +104,32 @@ function App() {
             <h3> Photo Gallery</h3>
           </div>
           <div className="photos">
-            <Coffephoto
+            <CoffeePhoto
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/4cd48a88-anna-tukhfatullina-food-photographer-stylist-xs3ivs2dlso-unsplash_109q0dh09q06y00003p01o.jpg"
               title="Americano Coffee"
               text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
             />
-            <Coffephoto
+            <CoffeePhoto
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/3d79d961-martin-widenka-0ri80lqco18-unsplash_109q0cz09q06y00002a01o.jpg"
               title="Black Coffee"
               text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
             />
-            <Coffephoto
+            <CoffeePhoto
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/b98c237b-pablo-merchan-montes-tw4vcs9c-8-unsplash_109q0c509q06y00003i01o.jpg"
               title="Espresso Coffee"
               text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
             />
-            <Coffephoto
+            <CoffeePhoto
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/4cd48a88-anna-tukhfatullina-food-photographer-stylist-xs3ivs2dlso-unsplash_109q0dh09q06y00003p01o.jpg"
               title="Americano Coffee"
               text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
             />
-            <Coffephoto
+            <CoffeePhoto
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/3d79d961-martin-widenka-0ri80lqco18-unsplash_109q0cz09q06y00002a01o.jpg"
               title="Black Coffee"
               text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
             />
-            <Coffephoto
+            <CoffeePhoto
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/b98c237b-pablo-merchan-montes-tw4vcs9c-8-unsplash_109q0c509q06y00003i01o.jpg"
               title="Espresso Coffee"
               text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
@@ -141,19 +142,19 @@ function App() {
             <h3>What Our Clints Says</h3>
           </div>
           <div className="clint_cards">
-            <Clintcard
+            <ClientCard
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/wrpf0n-team-b1_102s02s00000000000001o.jpg"
               text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
               name="John Deo"
               person="Founder"
             />
-            <Clintcard
+            <ClientCard
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/15w7gjk-tyler-hardy_102s02s00000000000001o.jpg"
               text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
               name="Sumi Roy"
               person="Manager"
             />
-            <Clintcard
+            <ClientCard
               img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/vzqxf1-2_102s03002s02s00000401o.jpg"
               text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
               name="David Lee"
@@ -171,12 +172,12 @@ function App() {
               <Button text="See All Products" />
             </div>
             <div className="coffe_boxs">
-              <Coffecardphoto name="Americano Coffee" price="$13.6" />
-              <Coffecardphoto name="Black Coffee" price="$11.9" />
-              <Coffecardphoto name="Espresso Coffee" price="$18.1" />
-              <Coffecardphoto name="Cappuccino Coffee " price="$15.5" />
-              <Coffecardphoto name="Macchiato Coffee " price="$21.2" />
-              <Coffecardphoto name="Decaf Coffee " price="$17.9" />
+              <CoffeeCardPhoto name="Americano Coffee" price="$13.6" />
+              <CoffeeCardPhoto name="Black Coffee" price="$11.9" />
+              <CoffeeCardPhoto name="Espresso Coffee" price="$18.1" />
+              <CoffeeCardPhoto name="Cappuccino Coffee " price="$15.5" />
+              <CoffeeCardPhoto name="Macchiato Coffee " price="$21.2" />
+              <CoffeeCardPhoto name="Decaf Coffee " price="$17.9" />
             </div>
           </div>
         </section>
@@ -184,17 +185,17 @@ function App() {
           <p>Follow Us Now</p>
           <h3>Follow on Instagram</h3>
           <div className="instagram_photos">
-            <Instagramcard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/852773f8-instagram1_108m08m00000000000001o.jpg" />
-            <Instagramcard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/2a4601fd-instagram2_108m08m00000000000001o.jpg" />
-            <Instagramcard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/339a06f2-instagram3_108m08m00000000000001o.jpg" />
-            <Instagramcard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/d434b69a-instagram7_108m08m00000000000001o.jpg" />
-            <Instagramcard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/a6123231-instagram6_108m08m00000000000001o.jpg" />
-            <Instagramcard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/d434b69a-instagram7_108m08m00000000000001o.jpg" />
-            <Instagramcard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/443843e4-instagram8_108m08m00000000000001o.jpg" />
-            <Instagramcard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/a971018d-instagram9_108m08m00000000000001o.jpg" />
+            <InstagramCard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/852773f8-instagram1_108m08m00000000000001o.jpg" />
+            <InstagramCard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/2a4601fd-instagram2_108m08m00000000000001o.jpg" />
+            <InstagramCard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/339a06f2-instagram3_108m08m00000000000001o.jpg" />
+            <InstagramCard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/d434b69a-instagram7_108m08m00000000000001o.jpg" />
+            <InstagramCard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/a6123231-instagram6_108m08m00000000000001o.jpg" />
+            <InstagramCard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/d434b69a-instagram7_108m08m00000000000001o.jpg" />
+            <InstagramCard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/443843e4-instagram8_108m08m00000000000001o.jpg" />
+            <InstagramCard img="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/a971018d-instagram9_108m08m00000000000001o.jpg" />
           </div>
         </section>
-        <Footer/>
+        <Footer />
       </section>
     </div>
   );

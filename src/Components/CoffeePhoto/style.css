@@ -1,0 +1,69 @@
+.photo_card {
+  width: 350px;
+  height: auto;
+  background: #f7f8f8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #acbb78,
+    #f7f8f8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #acbb78,
+    #f7f8f8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.photo_card img {
+  border-radius: 10px;
+  padding-bottom: 30px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  font-size: 18px;
+}
+
+.photo_card h3 {
+  font-family: "Rancho", cursive;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.photo_card p {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  font-family: "Raleway", sans-serif;
+}
+
+.photos {
+  width: 80%;
+  max-width: 100%; /* Örnek bir maksimum genişlik */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 120px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .photos {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .photo_card {
+        width: 280px;
+    }
+}

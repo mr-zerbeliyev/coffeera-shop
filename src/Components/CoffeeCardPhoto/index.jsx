@@ -1,8 +1,8 @@
 import React from "react";
+import CoffeeButton from "../CoffeeButton";
 import "./style.css";
-import Coffebutton from "../Coffebutton";
 
-const Coffecardphoto = ({name,price}) => {
+const CoffeeCardPhoto = ({ name, price }) => {
   return (
     <div className="coffes">
       <div className="coffes_image">
@@ -17,10 +17,10 @@ const Coffecardphoto = ({name,price}) => {
       </div>
       <div className="coffes_price">
         <span>{price}</span>
-        <Coffebutton/>
-
+        <CoffeeButton />
       </div>
     </div>
   );
 };
-export default Coffecardphoto;
+
+export default CoffeeCardPhoto;
