@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../Button";
 
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,13 +11,13 @@ const Header = () => {
         <nav>
           <ul className="navbar">
             <li>
-              <a href="#home">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#about">About Us</a>
+              <Link to="/about">About Us</Link>
             </li>
             <li>
-              <a href="#shop">Shop</a>
+              <Link to="/shop">Shop</Link>
             </li>
             <li>
               <a href="#contact"> Contact Us</a>
