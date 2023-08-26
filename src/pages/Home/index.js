@@ -5,7 +5,7 @@ import CoffeeCard from "../../components/CoffeeCard";
 import ClientCard from "../../components/ClientCard";
 import Button from "../../components/Button";
 import CoffeeCardPhoto from "../../components/CoffeeCardPhoto";
-import InstagramCard from "../../components/InstagramCard";
+import InstagramCard from "../../components/Instagramcard";
 import Footer from "../../components/Footer";
 import OnlineCoffes from "../../components/Onlinecoffes";
 
