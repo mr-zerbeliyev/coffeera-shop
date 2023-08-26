@@ -6,7 +6,10 @@ const CoffeeCardPhoto = ({ name, price }) => {
   return (
     <div className="coffes">
       <div className="coffes_image">
-        <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/26d42fc0-cimg-01_1000000000000000000028.png" />
+        <img
+          src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/26d42fc0-cimg-01_1000000000000000000028.png"
+          alt="Coffee"
+        />
       </div>
       <div className="coffes_text">
         <h3>{name}</h3>

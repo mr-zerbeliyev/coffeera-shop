@@ -2,7 +2,6 @@ import Header from "../../components/Header";
 import Slide from "../../components/Slide";
 import Info from "../../components/Info";
 import CoffeeCard from "../../components/CoffeeCard";
-import CoffeePhoto from "../../components/CoffeePhoto";
 import ClientCard from "../../components/ClientCard";
 import Button from "../../components/Button";
 import CoffeeCardPhoto from "../../components/CoffeeCardPhoto";
@@ -38,10 +37,14 @@ const Home = () => {
           <div className="promotion_img">
             <img
               className="promotion_img1"
+              alt="Promotion"
               src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/fe1055ff-img-4-1920x_10ci0ci00000000000001o.jpg"
             />
             <div className="promotion_img2">
-              <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/26d42fc0-cimg-01_1000000000000000000028.png" />
+              <img
+                alt="Promotion"
+                src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/26d42fc0-cimg-01_1000000000000000000028.png"
+              />
               <h3>Fine Quality & Ecological </h3>
             </div>
           </div>
@@ -71,7 +74,10 @@ const Home = () => {
         <section className="online_coffe">
           <h3>ONLINE COFFEE SHOP</h3>
           <div>
-            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png" />
+            <img
+              alt="Promotion"
+              src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png"
+            />
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -98,8 +104,6 @@ const Home = () => {
               name="COLUMBIA COFFEE"
               price="$25.00"
             />
-           
-           
           </div>
         </section>
 

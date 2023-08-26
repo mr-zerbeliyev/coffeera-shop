@@ -1,8 +1,8 @@
 import Header from "../../components/Header";
 import CoffeeCard from "../../components/CoffeeCard";
 import Footer from "../../components/Footer";
-import "./style.css"
 
+import "./style.css";
 
 const About = () => {
   return (
@@ -30,18 +30,20 @@ const About = () => {
             />
           </section>
           <div className="about_img">
-            <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/6c35f294-sung-wang-g4dgcf90em4-unsplash_109q0cs00000000000001o.jpg" />
+            <img
+              alt="About"
+              src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/6c35f294-sung-wang-g4dgcf90em4-unsplash_109q0cs00000000000001o.jpg"
+            />
             <img
               className="about_img2"
+              alt="About"
               src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/coffeera/af0486ef-ben-white-yqgjos0ske-unsplash_10c308200000000000001o.jpg"
             />
           </div>
         </section>
       </section>
-      <section>
-        
-      </section>
-      <Footer/>
+      <section></section>
+      <Footer />
     </div>
   );
 };

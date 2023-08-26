@@ -4,7 +4,7 @@ import "./style.css";
 const ClientCard = ({ img, text, name, person }) => {
   return (
     <div className="clintcard">
-      <img src={img} />
+      <img src={img} alt="Client" />
       <p>{text}</p>
       <h3>{name}</h3>
       <span>{person}</span>

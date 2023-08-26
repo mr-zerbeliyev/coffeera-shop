@@ -6,7 +6,7 @@ const CoffeeCard = ({ img, title, text }) => {
     <div>
       <div className="about_coffe">
         <div>
-          <img src={img} />
+          <img src={img} alt="Coffee" />
         </div>
         <div className="coffe_glass">
           <h3>{title}</h3>
