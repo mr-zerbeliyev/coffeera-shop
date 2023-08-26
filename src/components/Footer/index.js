@@ -1,5 +1,5 @@
 import React from "react";
-import ContactCard from "../ContactCard";
+import ContactCard from "../Contactcard";
 
 import "./style.css";
 
@@ -44,11 +44,17 @@ const Footer = () => {
       <div className="maps">
         <div className="map">
           <button>Shop 1</button>
-          <iframe title="shop-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99938.2548040086!2d27.102412799999996!3d38.486016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1saz!2str!4v1687933216942!5m2!1saz!2str"></iframe>
+          <iframe
+            title="shop-1"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99938.2548040086!2d27.102412799999996!3d38.486016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1saz!2str!4v1687933216942!5m2!1saz!2str"
+          ></iframe>
         </div>
         <div className="map">
           <button>Shop 2</button>
-          <iframe title="shop-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99938.2548040086!2d27.102412799999996!3d38.486016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1saz!2str!4v1687933216942!5m2!1saz!2str"></iframe>
+          <iframe
+            title="shop-2"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99938.2548040086!2d27.102412799999996!3d38.486016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1saz!2str!4v1687933216942!5m2!1saz!2str"
+          ></iframe>
         </div>
       </div>
       <div className="copyright">
